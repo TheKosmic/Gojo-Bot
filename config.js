@@ -126,8 +126,8 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = `╭ 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 🐈\n┃\n┃ » 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖:\n┃ @globalgb\n┃\n┃ » 𝚈𝚘𝚞𝚃𝚞𝚋𝚎:\n┃ @gatadios\n┃\n┃ » 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n┃ @gata_dios\n╰━━━━━━━━•` //"𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈"
-global.author = ` ╭ 𝗚𝗮𝘁𝗮 𝗗𝗶𝗼𝘀 ✓\n ┃\n ┃ » 𝙶𝚒𝚝𝙷𝚞𝚋:\n ┃ GataNina-Li\n ┃\n ┃ ⊹ Super Bot WhatsApp.\n ┃\n ┃ ♡ Apoyo\n ┃ » 𝙿𝚊𝚢𝙿𝚊𝚕:\n ┃ @OficialGD\n ╰━━━━━━━━•` //"𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
+global.packname = `╭ *ᘜ𝖔𝖏𝖔-𝖇𝖔𝖙*` //"*ᘜ𝖔𝖏𝖔-𝖇𝖔𝖙* : 𝙂𝖔𝖏𝖔"
+global.author = ` ╭ *ᘜ𝖔𝖏𝖔-𝖇𝖔𝖙*✓` //"*ᘜ𝖔𝖏𝖔-𝖇𝖔𝖙* : 𝙂𝖔𝖏𝖔"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
@@ -135,7 +135,7 @@ global.author = ` ╭ 𝗚𝗮𝘁𝗮 𝗗𝗶𝗼𝘀 ✓\n ┃\n ┃ » 𝙶�
 // [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
 global.vsJB = "3.0 (Beta)"
-global.gt = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
+global.gt = "*ᘜ𝖔𝖏𝖔-𝖇𝖔𝖙*"
 
 fetchDataAndProcess().catch(error => console.error('Ocurrió un error:', error))
 
@@ -163,9 +163,9 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎�
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
-global.igfg = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
-global.nomorown = "593993684821"
+global.wm = "*ᘜ𝖔𝖏𝖔-𝖇𝖔𝖙* : 𝙂𝖔𝖏𝖔"
+global.igfg = "*ᘜ𝖔𝖏𝖔-𝖇𝖔𝖙*"
+global.nomorown = "595975701824"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -433,17 +433,17 @@ const response = await fetch('https://raw.githubusercontent.com/GataNina-Li/Gata
 const data = await response.json() 
 let { accounts, channels, groups, collaboration, sponsors, others } = data.info
 
-global.yt = accounts.youTube
-global.yt2 = others.yt_vid
-global.ig = accounts.instagram
-global.md = accounts.gatabot_md
-global.fb = accounts.facebook
-global.tk = accounts.tiktok
-global.ths = accounts.threads
-global.paypal = accounts.paypal
-global.asistencia = others.assistance_num
-global.bot = 'wa.me/50238024328'
-global.cuentas = accounts.all
+global.yt = "youtube.com/@asmodeus"
+global.yt2 = "youtube.com/@asmodeus"
+global.ig = "https://www.instagram.com/eleng.s_
+global.md = "github.com/TheKosmic"
+global.fb = "."
+global.tk = "."
+global.ths = "https://www.threads.com/eleng.s_"
+global.paypal = "wa.me/595975701824"
+global.asistencia = "wa.me/595975701824"
+global.bot = 'wa.me/595975701824'
+global.cuentas = "https://www.instagram.com/eleng.s_"
 
 global.canal1 = channels.channel1
 global.canal2 = channels.channel2
@@ -451,17 +451,17 @@ global.canal3 = channels.channel3
 global.canal4 = channels.channel4
 
 global.soporteGB = others.group_support
-global.grupo1 = groups.group1
-global.grupo2 = groups.group2
-global.grupo3 = groups.group3
-global.grupo4 = groups.group4
-global.grupo5 = groups.group5
-global.grupo6 = groups.group6
+global.grupo1 = "."
+global.grupo2 = "."
+global.grupo3 = "."
+global.grupo4 = "."
+global.grupo5 = "."
+global.grupo6 = "."
 
-global.grupo_collab1 = collaboration.group1
-global.grupo_collab2 = collaboration.group2
-global.grupo_collab3 = collaboration.group3
-global.grupo_collab4 = collaboration.group4
+global.grupo_collab1 = "."
+global.grupo_collab2 = "."
+global.grupo_collab3 = "."
+global.grupo_collab4 = "."
 
 global.patrocinador1 = sponsors.boxmine
 global.patrocinador2 = sponsors.cafirexos
