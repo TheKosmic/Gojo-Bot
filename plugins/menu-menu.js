@@ -219,7 +219,7 @@ ${generateCommand(commandsReport, usedPrefix)}
 
 ${margen}
 
-> 🪅 *GATABOT TEMPORAL* 🪅\n
+> 🪅 *GOJOBOT TEMPORAL* 🪅\n
 ${generateCommand(commandsLink, usedPrefix)}
 
 ${margen}
@@ -529,7 +529,7 @@ ${margen}
 
 ✓ _${usedPrefix}fytendencia | fyranking_
 
-> 🏆 *TOP en GATABOT* 🏆
+> 🏆 *TOP en GOJOBOT* 🏆
 
 ✓ _${usedPrefix}top | lb | leaderboard_
 
@@ -572,7 +572,7 @@ ${margen}
 ✓ _${usedPrefix}unete *enlace*_
 ✓ _${usedPrefix}dardiamantes *cantidad*_
 ✓ _${usedPrefix}darxp *cantidad*_
-✓ _${usedPrefix}dargatacoins *cantidad*_
+✓ _${usedPrefix}dargojocoins *cantidad*_
 ✓ _${usedPrefix}addprem | userpremium *@tag* *cantidad*_
 ✓ _${usedPrefix}addprem2 | userpremium2 *@tag* *cantidad*_
 ✓ _${usedPrefix}addprem3 | userpremium3 *@tag* *cantidad*_
@@ -586,16 +586,16 @@ ${margen}
 ✓ _${usedPrefix}comunicargrupos *texto*_
 ✓ _${usedPrefix}borrartmp | cleartmp_
 ✓ _${usedPrefix}delexp *@tag*_
-✓ _${usedPrefix}delgatacoins *@tag*_
+✓ _${usedPrefix}delgojocoins *@tag*_
 ✓ _${usedPrefix}deldiamantes *@tag*_
 ✓ _${usedPrefix}reiniciar | restart_
-✓ _${usedPrefix}ctualizar | update_
+✓ _${usedPrefix}actualizar | update_
 ✓ _${usedPrefix}addprem | +prem *@tag*_
 ✓ _${usedPrefix}delprem | -prem *@tag*_
 ✓ _${usedPrefix}listapremium | listprem_
 ✓ _${usedPrefix}añadirdiamantes *@tag cantidad*_
 ✓ _${usedPrefix}añadirxp *@tag cantidad*_
-✓ _${usedPrefix}añadirgatacoins *@tag cantidad*_
+✓ _${usedPrefix}añadirgojocoins *@tag cantidad*_
 `.trim()
 await conn.sendFile(m.chat, gataImg, 'lp.jpg', menu, m, fakeChannel, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu }}})
 //conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
@@ -686,7 +686,7 @@ return formattedCommands.join('\n')
 // showPrefix: Usar true para que muestre el prefijo, de lo contrario usar false
 // Si algún objeto no se va usar dejar en false, menos el objeto "comando" ya que si es false no mostrará nada
 const commandsInfo = [
-{ comando: 'cuentasgatabot , accounts', descripcion: false, contexto: 'Cuentas oficiales', showPrefix: true },
+{ comando: 'cuentasgojobot , accounts', descripcion: false, contexto: 'Cuentas oficiales', showPrefix: true },
 { comando: 'grupos , linkgc', descripcion: false, contexto: 'Grupos oficiales', showPrefix: true },
 { comando: 'donar , donate', descripcion: false, contexto: 'Apoya al proyecto donando', showPrefix: true },
 { comando: 'listagrupos , grouplist', descripcion: false, contexto: 'Grupos en donde estoy', showPrefix: true },
