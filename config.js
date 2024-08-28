@@ -438,17 +438,17 @@ global.yt2 = "youtube.com/@asmodeus"
 global.ig = "https://www.instagram.com/eleng.s_
 global.md = "github.com/TheKosmic"
 global.fb = "https://www.facebook.com/groups/1422411065055874/?ref=share"
-global.tk = "."
+global.tk = "https://www.tiktok.com/aleng__11"
 global.ths = "https://www.threads.com/eleng.s_"
 global.paypal = "wa.me/595975701824"
 global.asistencia = "wa.me/595975701824"
 global.bot = 'wa.me/595975701824'
 global.cuentas = "https://www.instagram.com/eleng.s_"
 
-global.canal1 = channels.channel1
-global.canal2 = channels.channel2
-global.canal3 = channels.channel3
-global.canal4 = channels.channel4
+global.canal1 = "https://whatsapp.com/channel/0029VaK77R0DDmFcTIrEno3W"
+global.canal2 = "https://whatsapp.com/channel/0029VaK77R0DDmFcTIrEno3W"
+global.canal3 = "https://whatsapp.com/channel/0029VaK77R0DDmFcTIrEno3W"
+global.canal4 = "https://whatsapp.com/channel/0029VaK77R0DDmFcTIrEno3W"
 
 global.soporteGB = "wa.me/595975701824"
 global.grupo1 = "."
