@@ -437,7 +437,7 @@ global.yt = "youtube.com/@asmodeus"
 global.yt2 = "youtube.com/@asmodeus"
 global.ig = "https://www.instagram.com/eleng.s_
 global.md = "github.com/TheKosmic"
-global.fb = "."
+global.fb = "https://www.facebook.com/groups/1422411065055874/?ref=share"
 global.tk = "."
 global.ths = "https://www.threads.com/eleng.s_"
 global.paypal = "wa.me/595975701824"
@@ -450,7 +450,7 @@ global.canal2 = channels.channel2
 global.canal3 = channels.channel3
 global.canal4 = channels.channel4
 
-global.soporteGB = others.group_support
+global.soporteGB = "wa.me/595975701824"
 global.grupo1 = "."
 global.grupo2 = "."
 global.grupo3 = "."
