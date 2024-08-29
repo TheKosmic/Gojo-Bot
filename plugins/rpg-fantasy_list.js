@@ -118,7 +118,7 @@ if (isNaN(currentPage) || currentPage < 1 || currentPage > totalPages) {
 return conn.reply(m.chat, `Número de página inválido. Utiliza un número entre 1 y ${totalPages}.`, m)
 }
   
-let pp = 'https://telegra.ph/file/343d26ea0d2621d47539c.jpg'
+let pp = 'https://telegra.ph/file/50f59cf53b43f6627f3bd.jpg'
 await conn.sendFile(m.chat, pp, 'error.jpg', getFormattedReply(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
@@ -129,7 +129,7 @@ title: `🌟 FANTASÍA RPG`,
 body: `🎈 Lista de personajes`,
 mediaType: 1,
 sourceUrl: accountsgb,
-thumbnailUrl: 'https://telegra.ph/file/feb1553dffb7410556c8f.jpg'
+thumbnailUrl: 'https://telegra.ph/file/50f59cf53b43f6627f3bd.jpg'
 }}})
 
 function formatCharacterList(characterList) {
