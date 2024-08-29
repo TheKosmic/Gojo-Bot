@@ -32,29 +32,29 @@ global.imagen11 = fs.readFileSync("./media/menus/img10.jpg")
 global.imagen12 = fs.readFileSync("./media/menus/img11.jpg")
 global.imagen13 = fs.readFileSync("./media/menus/img12.jpg")
 
-global.img = 'https://qu.ax/vZii.jpg'
-global.img2 = 'https://qu.ax/hjcB.jpg'
+global.img = 'https://tinyurl.com/25wcl7g7'
+global.img2 = 'https://tinyurl.com/25wcl7g7'
 
-global.img3 = 'https://qu.ax/zELg.jpg' //prem
-global.img4 = 'https://qu.ax/YueS.jpg' //prem
+global.img3 = 'https://tinyurl.com/25wcl7g7' //prem
+global.img4 = 'https://tinyurl.com/25wcl7g7' //prem
 
-global.img5 = 'https://qu.ax/xLcn.jpg'
-global.img6 = 'https://qu.ax/EGOe.jpg'
-global.img7 = 'https://qu.ax/wly.jpg'
-global.img8 = 'https://qu.ax/TPVV.jpg'
-global.img9 = 'https://qu.ax/qKlN.jpg'
+global.img5 = 'https://tinyurl.com/25wcl7g7'
+global.img6 = 'https://tinyurl.com/25wcl7g7'
+global.img7 = 'https://tinyurl.com/25wcl7g7'
+global.img8 = 'https://tinyurl.com/25wcl7g7'
+global.img9 = 'https://tinyurl.com/25wcl7g7'
 
-global.img10 = 'https://qu.ax/SYFo.jpg'
-global.img11 = 'https://qu.ax/efhn.jpg'
-global.img12 = 'https://qu.ax/Vmpl.jpg'
-global.img13 = 'https://qu.ax/ElSy.jpg'
-global.img14 = 'https://qu.ax/Tgbe.jpg'
-global.img15 = 'https://qu.ax/Puwj.jpg' 
+global.img10 = 'https://tinyurl.com/25wcl7g7'
+global.img11 = 'https://tinyurl.com/25wcl7g7'
+global.img12 = 'https://tinyurl.com/25wcl7g7'
+global.img13 = 'https://tinyurl.com/25wcl7g7'
+global.img14 = 'https://tinyurl.com/25wcl7g7'
+global.img15 = 'https://tinyurl.com/25wcl7g7' 
 
-global.img16 = 'https://qu.ax/ovkN.jpg' //+18
+global.img16 = 'https://tinyurl.com/25wcl7g7' //+18
 
-global.img17 = 'https://qu.ax/HJdr.jpg'
-global.img18 = 'https://qu.ax/HCt.jpg'
+global.img17 = 'https://tinyurl.com/25wcl7g7'
+global.img18 = 'https://tinyurl.com/25wcl7g7'
 
 global.logogit = 'https://qu.ax/RzKF.jpg'
 
@@ -77,7 +77,7 @@ let ftroli = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.
 let fgif = {key: {participant : '0@s.whatsapp.net'}, message: {"videoMessage": { "title": wm, "h": `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./media/menus/Menu3.jpg')}}}
                              
 let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: redesMenu, thumbnail: await(await fetch(gataMenu)).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: gataMenu, sourceUrl: accountsgb }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '*ᘜ𝖔𝖏𝖔-𝖇𝖔𝖙* - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: gataMenu, sourceUrl: accountsgb }}}
 let dos = [enlace, enlace2]  
 
 global.wait = "⌛ *`Cargando...`*\n*✪✦✦⊹⊹⊹⊹⊹⊹⊹⊹✪* `20%`"
