@@ -5,8 +5,8 @@ let handler = async (m, { conn, text, participants, usedPrefix, groupMetadata })
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let grupos = [grupo1, grupo2, grupo3, grupo4, grupo5, grupo6]
 let gata = [img5, img6, img7, img8, img9]
-let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch('https://telegra.ph/file/bb6768e019760933dadc7.jpg')).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch('https://telegra.ph/file/bb6768e019760933dadc7.jpg')).buffer(), sourceUrl: yt }}}
+let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch('https://telegra.ph/file/50f59cf53b43f6627f3bd.jpg')).buffer() }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '*ᘜ𝖔𝖏𝖔-𝖇𝖔𝖙* - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch('https://telegra.ph/file/50f59cf53b43f6627f3bd.jpg')).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]
 
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
@@ -53,15 +53,15 @@ return await conn.sendMessage(m.chat, {image: { url: "https://telegra.ph/file/bb
   mentionedJid: [m.sender],
   isForwarded: true,
   forwardedNewsletterMessageInfo: {
-    newsletterJid: '120363160031023229@newsletter',
-    newsletterName: "Infinitywa 💫",
+    newsletterJid: '120363236880225319@newsletter',
+    newsletterName: "THE KOSMIC",
     serverMessageId: -1,
   },
   forwardingScore: 999,
   externalAdReply: {
     title: 'Pareja - aceptar ',
     body: global.gt,
-    thumbnailUrl: "https://telegra.ph/file/bb6768e019760933dadc7.jpg",
+    thumbnailUrl: "https://telegra.ph/file/50f59cf53b43f6627f3bd.jpg",
     sourceUrl: 'https://github.com/GataNina-Li/GataBot-MD',
     mediaType: 1,
     renderLargerThumbnail: false,
@@ -86,8 +86,8 @@ let handler = async (m, { conn, text, participants, usedPrefix, groupMetadata })
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let grupos = [grupo1, grupo2, grupo3, grupo4, grupo5, grupo6].getRandom()
 let gata = [img6, img7, img8, img9].getRandom()
-let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos, thumbnail: await(await fetch('https://telegra.ph/file/bb6768e019760933dadc7.jpg')).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch('https://telegra.ph/file/bb6768e019760933dadc7.jpg')).buffer(), sourceUrl: yt }}}
+let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos, thumbnail: await(await fetch('https://telegra.ph/file/50f59cf53b43f6627f3bd.jpg')).buffer() }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '*ᘜ𝖔𝖏𝖔-𝖇𝖔𝖙* - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch('https://telegra.ph/file/50f59cf53b43f6627f3bd.jpg')).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]
 
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
@@ -126,15 +126,15 @@ return await conn.sendMessage(m.chat, {image: { url: "https://telegra.ph/file/bb
   mentionedJid: [m.sender],
   isForwarded: true,
   forwardedNewsletterMessageInfo: {
-    newsletterJid: '120363160031023229@newsletter',
-    newsletterName: "INFINITY-WA 💫",
+    newsletterJid: '120363236880225319@newsletter',
+    newsletterName: "THE KOSMIC",
     serverMessageId: -1,
   },
   forwardingScore: 999,
   externalAdReply: {
     title: 'Pareja - aceptar ',
     body: gt,
-    thumbnail: await(await fetch('https://telegra.ph/file/bb6768e019760933dadc7.jpg')).buffer(),
+    thumbnail: await(await fetch('https://telegra.ph/file/50f59cf53b43f6627f3bd.jpg')).buffer(),
     sourceUrl: md,
     mediaType: 1,
     renderLargerThumbnail: false,
