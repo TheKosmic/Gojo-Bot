@@ -15,7 +15,7 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 global.owner = [
 ["595975701824", '𝙊𝙬𝙣𝙚𝙧', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
 ["595975701824"], 
-
+]
 
 global.mods = []
 global.prems = []
@@ -435,7 +435,7 @@ let { accounts, channels, groups, collaboration, sponsors, others } = data.info
 
 global.yt = "youtube.com/@asmodeus"
 global.yt2 = "youtube.com/@asmodeus"
-global.ig = "https://www.instagram.com/eleng.s_
+global.ig = "https://www.instagram.com/eleng.s_"
 global.md = "github.com/TheKosmic"
 global.fb = "https://www.facebook.com/groups/1422411065055874/?ref=share"
 global.tk = "https://www.tiktok.com/aleng__11"
